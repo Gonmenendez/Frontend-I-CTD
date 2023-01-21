@@ -1,0 +1,320 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*Header*/
+.whiteText{
+    color: #F3F3F3;
+}
+
+.firstHeader{
+    background-color: #222222;
+    font-size: 10px;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.firstHeader nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.secondHeader{
+    background-color: #F0A83E;
+    height: 62px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.firstLogo{
+    width: 166.38px;
+    height: 23px;
+}
+
+.topMenu{
+    height: 15px;
+    width: 343px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.topMenu li{
+    font-size: 13px;
+}
+
+/*First Petshop Section*/
+    .firstSection{
+        background-image: url('../img/bowl-and-pet-daities-on-green-background\ 1.png');
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+        width: 100%;
+        height: 409px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: right;
+    }
+
+    .firstSection div{
+        height: 146px;
+        width: 365px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .firstSection div h2{
+        width: 365px;
+        height: 54px;
+        background-color: #FFFFFF;
+        font-size: 30px;
+        color: #3C2313;
+        text-align: center;
+        border-radius: 5px;
+    }
+
+    .firstSection div p{
+        width: 190px;
+        height: 19px;
+        font-size: 16px;
+        color: #3C2313;
+    }
+
+    .firstSection div button{
+        height: 49px;
+        width: 141px;
+        color: #FFFFFF;
+        background-color: #F0A83E;
+        border: none;
+        border-radius: 5px;
+    }
+
+    /*Second Pershop Section*/
+    .secondSection{
+        background-color: #FFFFFF;
+        height: 957px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pawprintImg{
+        width: 67px;
+        height: 71px;
+    }
+
+    .secondSection h1{
+        font-size: 40px;
+        color: #3C2313;
+        font-weight: bold;
+    }
+
+    .secondSection nav ul{
+        height: 18px;
+        width: 267px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .secondSection nav ul li{
+        color: #666666;
+        font-size: 15px;
+        list-style-type: none;
+    }
+
+    .articles{
+        width: 834px;
+        height: 312px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    article{
+        height: 312px;
+        width: 265px;
+        background-color: #FBFAF6;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .articleImg{
+        width: 262.03px;
+        height: 266.86px;
+    }
+
+    .articleDescription{
+        color: #3C2313;
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    .articlePrice{
+        color: #F0A83E;
+        font-size: 15px;
+    }
+
+    .contact{
+        font-size: 25px;
+        font-weight: bold;
+        color: #3C2313;
+    }
+
+    .formDiv{
+        height: 264px;
+        width: 340px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .form{
+        width: 340px;
+        height: 40px;
+        background-color: #3C2313;
+        color: #FFFFFF;
+        display: flex;
+        align-items: center;
+        border-radius: 15px;
+    }
+
+    .buttons{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .formButton{
+        width: 110px;
+        height: 34px;
+        color: #FFFFFF;
+        font-size: 16px;
+        border: none;
+        border-radius: 15px
+    }
+
+    .reset{
+        background-color: #8A8787;
+    }
+
+    .send{
+        background-color: #F0A83E;
+    }
+
+/*Footer section 1*/
+.firstFooterSection{
+    height: 60px;
+    width: 100%;
+    background-color: #F0A83E;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sendEmail{
+    height: 40px;
+    width: 40px;
+}
+
+.suscriptionDiv{
+    height: 23.14px;
+    width: 338px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h3{
+    font-size: 20px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.suscriptionPanel{
+    height: 40px;
+    width: 346px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.suscriptionPanel p{
+    height: 40px;
+    width: 271px;
+    background-color: #FFFFFF;
+    font-size: 9px;
+    color: #A0A0A0;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.suscriptionPanel button{
+    height: 34px;
+    width: 70px;
+    font-size: 9px;
+    font-weight: bold;
+    background-color: #3C2313;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 15px;
+}
+
+/*Footer section 2*/
+.secondFooterSection{
+    height: 284px;
+    background-color: #3C2313;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footerPetshopLogo{
+    height: 23px;
+    width: 166px;
+}
+
+.contactDiv{
+    height: 238px;
+    width: 258px;
+    display: flex;
+}
+
+.contactDiv div{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.contactP{
+    font-size: 10px;
+    font-weight: bold;
+    color: #8A8787;
+}
+
+.footerEnd{
+    background-color: #222222;
+    color: #FFFFFF;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+}
