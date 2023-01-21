@@ -1,0 +1,26 @@
+body {font-family: 'Times New Roman', Times, serif;}
+.color-de-titulos-bg {color: #005677; 
+    background-color: #C4C4C4;}
+.mayusculas {text-transform: uppercase;}
+.align-center {text-align: center;}
+#footer-unico {color: #FFFFFF;
+    background-color: #005677;
+    font-size: 25px;}
+#hipervinculo-mc {color: green;
+    text-decoration: none;}
+#imagen-unica {display: block;
+    position: relative;
+    margin: auto;
+    height: 10%;
+    width: 10%;}
+#main-modif {padding-left: 8em;
+    padding-right: 8em;
+    padding-top: 2em;
+    padding-bottom: 8em;}
+span {font-weight: bold;}
+.span-italics {font-style: italic;}
+ul {margin-top: 35px;
+    margin-bottom: 35px;
+font-size: 18px;}
+li {margin-top: 18px;
+    margin-bottom: 18px;}
