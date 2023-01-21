@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+/*Header css*/
+header{
+    height: 100px;
+    width: 100%;
+    background-color: #222222;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topLogo{
+    height: 80px;
+    width: 234px;
+}
+
+.topUl{
+    height: 19px;
+    width: 284px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.navLi{
+    color: #F3F3F3;
+    font-size: 16px;
+}
+
+/*Body divs css*/
+.principalDiv{
+    height: 420px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #F3F3F3;
+    align-items: center;
+}
+
+    /*Delivery div*/
+    .deliveryDiv{
+        background-image: url('../img/delivery.jpg');
+        height: 350px;
+        width: 490px;
+    }
+
+    .redh2{
+        color: #FC200C;
+        font-weight: bold;
+        font-size: 24px;
+    }
+    span{
+        color: #F3F3F3;
+    }
+
+    /*Pizza podium div*/
+    .pizzaPodiumDiv{
+        background-color: #FFFFFF;
+        height: 350px;
+        width: 491px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .pizzaPodium{
+        height: 84px;
+        align-self: center;
+    }
+
+    .imgListDiv{
+        width: 491px;
+        height: 266px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .topFive{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .pizzaOl{
+        height: 135px;
+        width: 173px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .pizzaTower{
+        width: 92px;
+        height: 129px;
+        align-self: center;
+    }
+
+    .top5Title{
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    .top5Li{
+        font-weight: bold;
+        font-size: 16px;
+    }
+
+/*Footer*/
+footer{
+    background-color: #222222;
+    height: 150px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer nav ul li{
+    color: #F3F3F3;
+}
+
+.footerLogo{
+    height: 80px;
+    width: 212px;
+}
