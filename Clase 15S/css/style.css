@@ -1,0 +1,449 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    width: 100%;
+}
+
+/*Mobile Responsive*/
+/*Header*/
+header section{
+    display: none;
+}
+
+header div nav{
+    display: none;
+}
+
+.tabletTitle{
+    display: none;
+}
+
+header div{
+    width: 100vw;
+    height: 4rem;
+    background-color: #F0A83E;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerPetshopLogo{
+    width: 8.25rem;
+    height: 1.19rem;
+    margin-left: 2.5rem;
+}
+
+.burgerMenu{
+    margin-right: 2.5rem;
+}
+
+/*Body - Promotion*/
+.promotion{
+    height: 28rem;
+    background-image: url('../img/backgroundimg.png');
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+}
+
+.promotion div{
+    margin-right: 1.56rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.promotion h2{
+    width: 23rem;
+    height: 3rem;
+    background-color: #FFFFFF;
+    color: #3C2313;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.promotion p{
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+    margin-right: 2.16rem;
+    font-size: 1rem;
+    color: #3C2313;
+}
+
+.promotion button{
+    width: 9rem;
+    height: 3rem;
+    background-color: #F0A83E;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    margin-right: 2.75rem;
+}
+
+/*Article section*/
+.articleSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pawprint{
+    width: 5.625rem;
+    height: 5.1875rem;
+}
+
+.title{
+    color: #3C2313;
+    font-size: 2.5rem;
+}
+
+.topMenu{
+    height: 1.19rem;
+    width: 16.94rem;
+    list-style-type: none;
+    margin-top: 1.5rem;
+    margin-bottom: 2.56rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.topMenu li{
+    font-size: 13px;
+    color: #666666;
+}
+
+.articles{
+    width: 15rem;
+    height: 57rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+article{
+    background-color: #FBFAF6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+article p{
+    font-size: 0.81rem;
+    color: #3C2313;
+    font-weight: bold;
+}
+
+.price{
+    font-size: 0.81rem;
+    color: #F0A83E;
+    font-weight: bold;
+}
+
+/*Contact section*/
+.contact{
+    width: 25.25rem;
+    height: 20.69rem;
+    margin-bottom: 2.81rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contactTitle{
+    margin-top: 2.13rem;
+    margin-bottom: 1rem;
+}
+
+.formDiv{
+    width: 18.63rem;
+    height: 8.13rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.formDiv p{
+    width: 18.63rem;
+    height: 2.5rem;
+    color: #AB9C9C;
+    font-size: 0.56rem;
+    background-color: #3C2313;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.buttons{
+    width: 25.25rem;
+    height: 2.81rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.formButton{
+    width: 12.44rem;
+    height: 2.81rem;
+    border-radius: 25px;
+    border: none;
+    color: #FFFFFF;
+    font-size: 1rem;
+    margin-top: 3rem;
+}
+
+.reset{
+    background-color: #8A8787;
+}
+
+.send{
+    background-color: #F0A83E;
+}
+
+/*Footer*/
+/*Fist footer section*/
+.firstFooter{
+    width: 100vw;
+    height: 6.31rem;
+    color: #FFFFFF;
+    background-color: #F0A83E;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.firstFooter div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.sendEmailDiv{
+    margin-left: 0.31rem;
+    margin-bottom: 0.44rem;
+}
+
+.sendEmailDiv h3{
+    font-size: 1.25rem;
+    margin-left: 1.5rem;
+}
+
+.secondSendEmailDiv{
+    margin-left: 0.94rem;
+}
+
+.firstFooter div p{
+    width: 16.31rem;
+    height: 2.5rem;
+    font-size: 0.63rem;
+    color: #A0A0A0;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.firstFooter div button{
+    width: 6.25rem;
+    height: 2.19rem;
+    color: #FFFFFF;
+    font-size: 0.94rem;
+    font-weight: bold;
+    background-color: #3C2313;
+    border: none;
+    border-radius: 15px;
+}
+
+/*Second footer section*/
+.secondFooter{
+    width: 100vw;
+    height: 20.38rem;
+    background-color: #3C2313;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footerLogo{
+    width: 8.38rem;
+    height: 1.13rem;
+    margin-top: 0.69rem;
+    margin-bottom: 0.94rem;
+}
+
+.comunication{
+    width: 19rem;
+    height: 15.75rem;
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contactImages{
+    width: 4.25rem;
+    height: 15.75rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contactData{
+    width: 13.81rem;
+    height: 14.25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contactData div h3{
+    color: #FFFFFF;
+    font-size: 1.5rem;
+}
+
+.contactData div p{
+    color: #8A8787;
+    font-size: 0.81rem;
+    font-weight: bold;
+}
+
+.rights{
+    width: 100vw;
+    height: 1.18rem;
+    color: #FFFFFF;
+    font-size: 0.81rem;
+    font-weight: bold;
+    background-color: #222222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Responsive Tablet*/
+@media (min-width: 530px){
+    /*Header*/
+    header section{
+        width: 100vw;
+        height: 1.25rem;
+        color: #f3f3f3;
+        font-size: 0.625rem;
+        background-color: #222222;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 5.63rem;
+        padding-right: 3.13rem;
+        display: flex;
+    }
+    
+    header section nav ul{
+        width: 5.75rem;
+        height: 0.75rem;
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    header section nav ul li{
+        display: flex;
+        align-items: center;
+    }
+    
+    .burgerMenu{
+        display: none;
+    }
+
+    header div nav{
+        display: flex;
+        padding-right: 2.5rem;
+    }
+    
+    .headerMenu{
+        width: 21.44rem;
+        height: 0.94rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .headerMenu li{
+        color: #FFFFFF;
+        font-size: 0.81rem;
+        display: flex;
+        align-items: center;
+    }
+
+    .headerMenu li img{
+        width: 0.94rem;
+        height: 0.88rem;
+    }
+
+    /*Articles Section*/
+    .mobileTitle{
+        display: none;
+    }
+
+    .tabletTitle{
+        display: block;
+    }
+
+    .promotion{
+        background-size: cover;
+    }
+
+    .promotion div{
+        align-items: center;
+    }
+
+    .promotion div p{
+        margin-right: 0;
+    }
+
+    .promotion div button{
+        margin: 0;
+    }
+
+    .articles{
+        width: 51.13rem;
+        height: 19.5rem;
+        flex-direction: row;
+    }
+
+    .firstFooter{
+        height: 3.75rem;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .secondSendEmailDiv{
+        margin-right: 2.94rem;
+    }
+
+    .secondFooter{
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+
+    .comunication{
+        margin-left: 4.38rem;
+    }
+
+    .footerLogo{
+        margin-right: 4.38rem;
+    }
+}
