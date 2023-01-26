@@ -1,0 +1,265 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+}
+
+/*Header*/
+header p{
+    width: 100%;
+    height: 1.44rem;
+    color: #000000;
+    font-size: 0.94rem;
+    background-color: #1CD1B0;
+    padding-left: 1.25rem;
+}
+
+header div{
+    width: 100%;
+    height: 5rem;
+    background-color: #00669F;
+    display: flex;
+    align-items: center;
+}
+
+header div img{
+    width: 6.19rem;
+    height: 4.63rem;
+    margin-left: 0.63rem;
+}
+
+h1{
+    color: #FFFFFF;
+    font-size: 1.88rem;
+    font-weight: 300;
+    margin-left: 1.25rem;
+}
+
+header nav{
+    width: 100%;
+    height: 2.5rem;
+    background-color: #001D2D;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 1.25rem;
+}
+
+ul{
+    width: 15.69rem;
+    height: 1.19rem;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+a{
+    color: #FFFFFF;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: #001D2D;
+    background-color: #FFFFFF;
+    border-radius: 0.31rem;
+}
+
+/*New character section*/
+.central{
+    display: flex;
+    justify-content: center;
+}
+
+section{
+    width: 59.63rem;
+    height: 52rem;
+    background-color: #00669F;
+    border-radius: 3.07rem;
+    margin: 2.5rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2{
+    width: 18.75rem;
+    height: 4.5rem;
+    color: #FBFFFD;
+    font-size: 2.5rem;
+    display: flex;
+    align-items: center;
+}
+
+section p{
+    width: 32.5rem;
+    height: 0.88rem;
+}
+
+.textAndLabels{
+    color: #FBFFFD;
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.verticalBlock{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.horizontalBlock{
+    display: flex;
+    flex-direction: row;
+}
+
+.firstSize{
+    width: 21.44rem;
+    height: 6.38rem;
+    margin: 1.25rem 0.72rem 0;
+}
+
+.secondSize{
+    width: 21.44rem;
+    height: 6.69rem;
+    margin: 1.88rem 0.72rem 0;
+}
+
+.toComplete{
+    width: 21.44rem;
+    height: 3.94rem;
+    color: #808080;
+    font-size: 1.25rem;
+    border-radius: 0.96rem;
+    border: none ;
+}
+
+.specieDisabled{
+    display: none;
+}
+
+.addPhoto{
+    width: 20.94rem;
+    height: 5.69rem;
+    margin: 1.88rem 0.72rem 0;
+}
+
+#facePic{
+    display: none;
+}
+
+.fancyFile{
+    display: flex;
+}
+
+.fancyFileButton{
+    width: 13.94rem;
+    height: 2rem;
+    font-size: 0.81rem;
+    background-color: #CECECE;
+    border: none;
+    border-radius: 0.31rem;
+    padding-left: 0.56rem;
+    display: flex;
+    align-items: center;
+}
+
+.fancyFileText{
+    font-size: 0.63rem;
+    background-color: #00669F;
+    border: none;
+    margin-left: 1.25rem;
+    display: flex;
+    align-items: center;
+}
+
+textarea{
+    width: 21.44rem;
+    height: 19.19rem;
+    font-size: 1.25rem;
+    border-radius: 0.96rem;
+    margin: 1.88rem 0.72rem 0;
+    padding-top: 1.25rem;
+    padding-left: 0.63rem;
+}
+
+.radioAndCheckbox{
+    width: 21.44rem;
+    height: 19.5rem;
+    margin: 1.88rem 0.72rem 0;
+}
+
+.checkboxLabel{
+    margin-bottom: 0.75rem;
+}
+
+.flexCheckbox label{
+    font-size: 1rem;
+    color: #FFFFFF;
+}
+
+.flexCheckbox{
+    width: 11.13rem;
+    height: 7.75rem;
+}
+
+.line{
+    width: 21.44rem;
+    height: 0.06rem;
+    background-color: #CCCCCC;
+    margin-top: 2.06rem;
+    margin-bottom: 1.31rem;
+}
+
+.radioBox{
+    width: 11.5rem;
+    height: 6.38rem;
+}
+
+.radioOptions{
+    color: #FFFFFF;
+    font-size: 1.25rem;
+}
+
+button{
+    width: 29.13rem;
+    height: 5.44rem;
+    font-size: 2.5rem;
+    background-color: #1CD1B0;
+    border: none;
+    border-radius: 1.44rem;
+    margin-top: 2.81rem;
+}
+
+button:hover{
+    color: #FFFFFF;
+    background-color: #001D2D;
+}
+
+/*Footer*/
+footer{
+    width: 100%;
+    height: 3.81rem;
+    background-color: #00669F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p{
+    color: #FFF9F9;
+    font-size: 1rem;
+}
