@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styleNewCharacter.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+    <title>New Character</title>
+</head>
+<body>
+    <header>
+        <p>20% de descuento en todos los productos!</p>
+        <div>
+            <img src="../img/store.svg" alt="Store logo">
+            <h1>Nombre Tienda</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Contacto</a></li>
+                <li><a href="#">Registrarme</a></li>
+                <li><a href="#">Ingresar</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="central">
+        <section>
+            <h2>Añadí tu super!</h2>
+            <p class="textAndLabels">Agregá tu personaje favorito completando las opciones</p>
+            <form action="">
+                <div class="horizontalBlock">
+                    <div class="verticalBlock firstSize">
+                        <label for="name" class="textAndLabels">*Nombre</label>
+                        <input type="text" name="nombre" class="toComplete" id="name" required>
+                    </div>
+                    <div class="verticalBlock firstSize">
+                        <label for="specie" class="textAndLabels">*Especie</label>
+                        <select name="especie" class="toComplete" id="specie" required>
+                            <option disabled selected id="specieDisabled">Especie</option>
+                            <option value="human">Humano</option>
+                            <option value="alien">Extraterrestre</option>
+                            <option value="god">Dios</option>
+                            <option value="unknown">Desconocido</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="horizontalBlock">
+                    <div class="verticalBlock secondSize">
+                        <label for="birthDate" class="textAndLabels">Fecha</label>
+                        <input type="date" name="date" class="toComplete" id="birthDate" required>
+                    </div>
+                    <div class="verticalBlock addPhoto">
+                        <label for="facePic" class="textAndLabels">Agregar Foto</label>
+                        <input type="file" name="photo" accept=".jpg, .png" id="facePic" required>
+                        <label for="facePic" class="fancyFile">
+                            <span class="fancyFileButton">Seleccionar archivo</span>
+                            <span class="fancyFileText">No se eligió archivo</span>
+                        </label>
+                    </div>
+                </div>
+                <div class="horizontalBlock">
+                    <textarea name="description" id="description" cols="30" rows="10" placeholder="Descripción" required></textarea>
+                    <div class="verticalBlock radioAndCheckbox">
+                        <div class="verticalBlock">
+                            <label class="textAndLabels checkboxLabel">Poderes</label>
+                            <div class="verticalBlock flexCheckbox">
+                                <label>
+                                    <input type="checkbox" name="abilities">
+                                    Volar
+                                </label>
+                                <label>
+                                    <input type="checkbox" name="abilities">
+                                    SuperInteligencia
+                                </label>
+                                <label>
+                                    <input type="checkbox" name="abilities">
+                                    Vista de rayo láser
+                                </label>
+                                <label>
+                                    <input type="checkbox" name="abilities">
+                                    Billetera gorda
+                                </label>
+                            </div>
+                        </div>
+                        <div id="line"></div>
+                        <div class="verticalBlock radioBox">
+                            <label class="textAndLabels">Tipo de personaje</label>
+                            <label class="radioOptions">
+                                <input type="radio" name="characterType">
+                                Héroe / Heroina
+                            </label>
+                            <label class="radioOptions">
+                                <input type="radio" name="characterType">
+                                Villano / Villana
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <button type="submit">Añadir</button>
+            </form>
+        </section>
+    </div>
+    <footer>
+        <p>Todos los derechos reservados a FRONT END 1</p>
+    </footer>
+</body>
+</html>
