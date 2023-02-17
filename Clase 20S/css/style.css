@@ -1,0 +1,259 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+:root{
+    width: 100%;
+    min-height: 100vh;
+    --primary-color: #222222;
+    --secondary-color:#D01418;
+    --third-color: #F3f3f3;
+    --fourth-color: #619D00;
+    --fifth-color: #C4C4C4;
+}
+
+/*Mobile*/
+/*Header*/
+header div{
+    display: none;
+}
+
+header{
+    height: 5.6rem;
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerLogo{
+    width: 12.5rem;
+    height: 2.5rem;
+    margin-left: 1.25rem;
+}
+
+.burgerMenu{
+    width: 1.69rem;
+    height: 1.69rem;
+    margin-right: 1.25rem;
+}
+
+/*Advertising*/
+.advertising{
+    width: 100%;
+    height: 32rem;
+    background-image: url('../img/background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-size: 2.5rem;
+    color: var(--third-color);
+    text-align: center;
+}
+
+.discount{
+    color: var(--secondary-color);
+}
+
+button{
+    width: 13.75rem;
+    height: 3.81rem;
+    background-color: var(--secondary-color);
+    border: none;
+    border-radius: 0.31rem;
+    margin-top: 4.13rem;
+}
+
+button a{
+    color: var(--third-color);
+    font-size: 1.56rem;
+    text-decoration: none;
+}
+
+/*Article section*/
+.articleSection{
+    background-color: var(--third-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2{
+    font-size: 1.88rem;
+    font-weight: 400;
+    margin-top: 1.88rem;
+}
+
+article{
+    width: 15rem;
+    background-color: #ffffff;
+    border-radius: 0.31rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1.88rem;
+    margin-bottom: 1.88rem;
+    padding-top: 1.88rem;
+    padding-bottom: 1.31rem;
+}
+
+.videogame{
+    margin-bottom: 1.88rem;
+}
+
+.videogame::after{
+    content: '';
+    background-color: var(--primary-color);
+    width: 100%;
+    height: 15px;
+}
+
+.price{
+    font-size: 1.25rem;
+    margin-top: 1.31rem;
+    margin-bottom: 0.25rem;
+}
+
+.fees{
+    font-size: 0.81rem;
+}
+
+.shipping{
+    font-size: 0.63rem;
+    color: var(--fourth-color);
+}
+
+.secondAS{
+    padding-top: 1.56rem;
+}
+
+.secondAS div{
+    display: flex;
+    flex-direction: column;
+}
+
+.secondAS a{
+    font-size: 0.94rem;
+    text-decoration: none;
+    color: var(--third-color);
+    border-radius: 0.31rem;
+}
+
+.chair{
+    margin: 1.25rem 0rem 1.5rem;
+    padding: 2.81rem 1.88rem 2.81rem 10.81rem;
+    background-image: url('../img/chair.png');
+}
+
+.computers{
+    margin-bottom: 5.25rem;
+    padding: 2.81rem 1.88rem 2.81rem 9.94rem;
+    background-image: url('../img/computers.png');
+}
+
+/*Footer*/
+footer section{
+    width: 100%;
+    height:  11.94rem;
+    background-color: var(--primary-color);
+    font-size: 1.56rem;
+    color: var(--third-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.25rem 0rem;
+}
+
+footer section div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.imgDiv{
+    padding-top: 1.25rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.footerP{
+    width: 100%;
+    height: 1.56rem;
+    background-color: var(--fifth-color);
+    text-align: center;
+    font-size: 0.63rem;
+    padding: 0.44rem 0rem 0.44rem;
+}
+
+
+/*Tablet*/
+@media (min-width: 768px){
+    /*Header*/
+    .burgerMenu{
+        display: none;
+    }
+
+    header div{
+        display: flex;
+        align-items: center;
+    }
+
+    header ul{
+        list-style-type: none;
+        display: flex;
+    }
+
+    header li a{
+        padding: 0rem 0.25rem 0rem;
+        text-decoration: none;
+        color: var(--third-color); 
+    }
+
+    header div img{
+        margin: 2.63rem;
+        padding: 0rem 2.19rem 0rem 0rem;
+    }
+
+    /*Advertising*/
+    br{
+        display: none;
+    }
+
+    h1 span::before{
+        content: " ";
+    }
+
+    /*Articles*/
+    .tabletArticle{
+        margin-top: 1.2rem;
+        display: flex;
+    }
+
+    article{
+        margin: 0rem 0.94rem 0rem;
+    }
+
+    .secondAS div{
+        flex-direction: row;
+    }
+
+    .chair, .computers{
+        margin: 1.25rem 4.5rem 5.25rem;
+    }
+
+    /*Footer*/
+    footer section{
+        flex-direction: row;
+        padding: 0rem 4.69rem 0rem;
+    }
+}
