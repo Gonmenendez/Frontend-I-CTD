@@ -1,0 +1,152 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+  width: 1303px;
+  height: 100vh;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header h2 {
+  font-size: 2rem;
+  padding: 1.75rem 0rem 1.75rem 5rem;
+}
+header ul {
+  display: flex;
+  list-style-type: none;
+  padding: 1.75rem 4rem 1.75rem 0rem;
+}
+header ul li {
+  padding: 0rem 1rem;
+  font-size: 1.27rem;
+}
+header ul a {
+  text-decoration: none;
+  color: #000;
+}
+
+section {
+  padding: 3rem 5rem 0rem 5rem;
+  display: flex;
+  justify-content: center;
+}
+section h1 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 3.44rem;
+  letter-spacing: 0.5rem;
+  line-height: 4.38rem;
+  position: relative;
+  z-index: 10;
+}
+section h1::before {
+  content: "";
+  width: 12.55rem;
+  height: 2.5rem;
+  background-color: #03faee;
+  position: absolute;
+  z-index: -10;
+}
+section .info {
+  color: #8b8b8b;
+  font-size: 1.2rem;
+  line-height: 2.7rem;
+  padding: 2rem 0rem 1.75rem;
+}
+section button {
+  width: 8.5rem;
+  height: 4.7rem;
+  border-radius: 8px;
+  border-style: dotted;
+  background-color: #03faee;
+  font-size: 1.25rem;
+  margin-right: 2rem;
+  transition: background-color 0.2s;
+}
+section button:hover {
+  background-color: #92f7f2;
+}
+section img {
+  width: 35rem;
+  position: relative;
+  top: -4rem;
+}
+
+.contacting {
+  display: flex;
+  justify-content: space-between;
+}
+.contacting div {
+  width: 22rem;
+  height: 19rem;
+  padding: 1rem;
+  border-radius: 8px;
+  background-color: #f8f8f8;
+}
+.contacting div .circle {
+  width: 3rem;
+  height: 3rem;
+  font-size: 1.25rem;
+  border-radius: 50%;
+  border: 1px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.1rem 0.1rem 0rem 0rem;
+  box-shadow: -0.33rem 0rem #03faee;
+}
+.contacting div h3 {
+  padding: 1rem 0rem 0rem 0.5rem;
+  font-size: 1.5rem;
+  position: relative;
+  z-index: 10;
+}
+.contacting div h3::before {
+  content: "";
+  width: 1.5rem;
+  height: 0.9rem;
+  background-color: #03faee;
+  position: absolute;
+  z-index: -10;
+}
+.contacting div p {
+  padding: 0.5rem;
+  font-size: 1.2rem;
+}
+
+footer {
+  padding: 5rem 5rem 0rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer p {
+  font-size: 1.5rem;
+}
+footer div {
+  display: flex;
+}
+footer div p {
+  width: 3rem;
+  height: 3rem;
+  font-size: 1.25rem;
+  border-radius: 50%;
+  border: 0px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.1rem 0.1rem 0rem 0rem;
+  box-shadow: -0.33rem 0rem #03faee;
+  margin: 0.8rem;
+}
+footer div img {
+  width: 1.5rem;
+  height: 1.5rem;
+}/*# sourceMappingURL=style.css.map */
